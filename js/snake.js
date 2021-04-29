@@ -40,19 +40,6 @@ export default class Snake {
                 this.direction = Phaser.Math.Vector2.DOWN;
                 break;
         }
-
-        //if(event.keyCode == 37){
-            //esquerda
-        //}
-       // else if(event.keyCode==38){
-            //cima
-        //}
-        //else if(event.keyCode==39){
-            //direita
-        //}
-        //else if(event.keyCode==40){
-            //baixo
-        //}
     }
 
     update(time){
